@@ -26,7 +26,7 @@ Citation
 
 If you use this dataset, please cite:
 
-R. Romdhani, O. Mosbahi, and M. Khalgui, "TestAdapt: An Adaptive Dataset for Configuration and Testing of Intelligent Systems," in Proc. 2025 Int. Symp. on iNnovative Informatics of Biskra (ISNIB), 2025.
+R. Romdhani, O. Mosbahi, and M. Khalgui, "TestAdapt: An Adaptive Dataset for Configuration and Testing of Intelligent Systems," in Proc. 2025 ...
 
 License
 
