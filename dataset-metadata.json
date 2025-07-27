@@ -1,0 +1,25 @@
+{
+  "title": "TestAdapt Concurrent System Dataset",
+  "subtitle": "Labeled Snapshots for Deadlock Detection in Intelligent Concurrent Systems",
+  "description": "This dataset contains 10,200 labeled snapshots from 170 scenarios of an intelligent concurrent system with 6 agents sharing 10 resources. It includes task execution vectors, resource availability vectors, hold/wait matrices, and deadlock labels, designed for training and evaluating deadlock detection models.",
+  "id": "yourusername/testadapt-dataset",
+  "licenses": [{"name": "CC0-1.0"}],
+  "resources": [
+    {
+      "path": "testadapt_snapshots.csv",
+      "description": "Main dataset file containing 10,200 snapshots with task states, resource states, hold/wait matrices, and deadlock labels.",
+      "schema": {
+        "fields": [
+          {"name": "scenario_id", "description": "Unique identifier for the execution scenario", "type": "integer"},
+          {"name": "timestamp", "description": "Time of snapshot in seconds", "type": "float"},
+          {"name": "task_state_vector", "description": "Vector of task states (0: Idle, 1: Blocked, 2: Executing)", "type": "array"},
+          {"name": "resource_state_vector", "description": "Binary vector of resource availability (0: Free, 1: Held)", "type": "array"},
+          {"name": "hold_matrix", "description": "Binary matrix indicating tasks holding resources", "type": "array"},
+          {"name": "wait_matrix", "description": "Binary matrix indicating tasks waiting for resources", "type": "array"},
+          {"name": "deadlock_label", "description": "Binary label (1: Deadlock, 0: No Deadlock)", "type": "integer"}
+        ]
+      }
+    }
+  ],
+  "keywords": ["deadlock detection", "concurrent systems", "intelligent systems", "dataset", "testing", "AI"]
+}
