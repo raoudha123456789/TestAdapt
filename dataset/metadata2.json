@@ -1,0 +1,14 @@
+{
+  "name": "TestAdapt",
+  "description": "Adaptive dataset for deadlock detection in concurrent intelligent systems",
+  "num_snapshots": 10200,
+  "num_scenarios": 170,
+  "deadlock_ratio": 0.5,
+  "features": {
+    "hold_matrix": "n x m binary",
+    "wait_matrix": "n x m binary",
+    "task_state": "n x 1 (0=Idle,1=Blocked,2=Exec)",
+    "resource_state": "m x 1 (0=free,1=held)"
+  },
+  "labels": ["deadlock", "non-deadlock"]
+}
