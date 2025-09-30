@@ -18,3 +18,4 @@ TestAdapt/
 │── examples/                 ← notebooks ou exemples d’utilisation
 │   └── deadlock_detection.ipynb
 └── paper/                    ← PDF mon article 
+<img width="316" height="608" alt="github" src="https://github.com/user-attachments/assets/64deb677-5fb9-46a1-b734-04dd3f01120f" />
